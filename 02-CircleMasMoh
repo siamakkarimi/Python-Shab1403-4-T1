@@ -1,0 +1,5 @@
+pi = 3.14
+radious = float(input("Enter Radious: "))
+mas = pi * radious * radious
+moh = 2 * pi * radious
+print(f"Masahat is: {mas} and mohit is {moh}")
