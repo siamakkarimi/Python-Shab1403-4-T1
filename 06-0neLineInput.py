@@ -1,21 +1,31 @@
 # Everything defined in python is Object
 # object is like a capsule or box
-# in every object(box or capsule), there are Methods
+# in every object(box or capsule), there are:
+# 1)property(state or data)
+# 2)Methods(functions)
+
 # Methods are like functions but inside object(box or capsule)
-# In other words, Methods are depends to their object but functions like print are independent
+# In other words, Methods are depends to their object
+# but functions like print() and input() are independent(you can use everywhere)
 
 #function: independent
 # print("salam")
 # input("Enter a number:")
  
-#str is a Object 
-# str = "siamak karimi"
+#string(data type) is a Object 
+# str = "siamak Najjar karimi"
 # print(str.split())
 
 # print(input("enter 3 number:").split())
 
-a, b, c = input("enter 3 number:").split()
+# a, b, c = input("enter 3 number:").split()
+# r = float(input("enteer shoa"))
+a, b, c = map(float,input("enter 3 number:").split())
 print(f"a = {a}, b = {b}, c = {c}")
+
+
+
+
 
 
 
