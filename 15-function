@@ -1,0 +1,43 @@
+def my_function():
+  print("Hello from a function")
+
+my_function()
+# ================================
+def say_hello(name):
+  print(f"Hello {name}")
+
+say_hello("Siamak")
+say_hello("Farshad")
+say_hello("Mardane")
+# =======================================
+def say_hello2(fname, lname):
+  print(f"Hello {fname} {lname}")
+
+def say_goodbye(fname, lname):
+  print(f"GoodBye {fname} {lname}")
+
+say_hello2("Siamak","Karimi")
+say_goodbye("Siamak","Karimi")
+# ============================================
+def majmo(x,y):
+    return x + y
+
+# ======Solution1=====
+haseljam = majmo(3,4)
+print(f"haseljam is: {haseljam}")
+# ======Solution2=====
+print(f"haseljam is: {majmo(3,4)}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
