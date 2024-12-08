@@ -1,23 +1,38 @@
-def my_function():
-  print("Hello from a function")
-
-my_function()
+#هر یک از وظایف بدن انسان توسط یکی از اعضای بدن انجام می شوند
+#هر یک از وظایف یک  برنامه بزرگ توسط یکی از توابع برنامه انجام می شوند
+#بعبارتی یک تابع در یک برنامه را می توان بعنوان یک عضوی از بدن انسان در نظر گرفت که یک وظیفه مشخصی را در برنامه انجام میدهد
+#یکسری از اعضای بدن را که وظایف مرتبط بهم را انجام مبدهند را بصورت گروهی  میتوان در نظر گرفت مانند دستگاه گوارش که شامل اعضایی می باشد که کارهای مربوط به گوارش بدن را انجام میدهند
+# در برنامه، توابع مرتبط با یکدیگر را می توان در داخل یک کتابخانه یا پکیج قرار داد مانند کتابخانه ریاضی
 # ================================
-def say_hello(name):
-  print(f"Hello {name}")
+#یکی از مزایای توابع، استفاده مجدد از آن در برنامه می باشد - قابلیت استفاده مجدد
 
-say_hello("Siamak")
-say_hello("Farshad")
-say_hello("Mardane")
+# def say_hello(name):
+#      print(f"Hello {name}")
+ 
+
+# say_hello("Ali")
+# say_hello("Melika")
+# say_hello("Mobina")
+
 # =======================================
-def say_hello2(fname, lname):
-  print(f"Hello {fname} {lname}")
+# def say_hello(fname, lname):
+#   print(f"Hello {fname} {lname}")
 
-def say_goodbye(fname, lname):
-  print(f"GoodBye {fname} {lname}")
+# say_hello("Siamak","Karimi")
+# say_hello("Melika","Bani")
 
-say_hello2("Siamak","Karimi")
-say_goodbye("Siamak","Karimi")
+# def say_hello(fname, lname = "karimi"):
+#   print(f"Hello {fname} {lname}")
+
+# say_hello("Siamak")
+# say_hello("Melika","Bani")
+# say_hello("Melika")
+
+# def say_goodbye(fname, lname):
+#   print(f"GoodBye {fname} {lname}")
+
+# say_goodbye("Siamak","Karimi")
+# say_goodbye("Melika","Bani")
 # ============================================
 def majmo(x,y):
     return x + y

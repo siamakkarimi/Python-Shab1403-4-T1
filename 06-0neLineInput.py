@@ -1,5 +1,7 @@
 # Everything defined in python is Object
-# object is like a capsule or box
+#هر چیزی که در پایتون تعریف میکنیم، یک شی است
+# object is like a capsule or box 
+# هر شی را می توان یک کپسول یا جعبه ابزار یا آرایش در نظز گرفت
 # in every object(box or capsule), there are:
 # 1)property(state or data)
 # 2)Methods(functions)
